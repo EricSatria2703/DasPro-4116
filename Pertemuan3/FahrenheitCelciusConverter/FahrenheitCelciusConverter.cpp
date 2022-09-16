@@ -27,19 +27,23 @@ int main()
 
     cout << " " << endl;
 
-    if (Rumus == "A") {
+    if (Rumus == "A" || Rumus == "a") {
         cout << "Masukkan suhu dalam Fahrenheit" << endl;
         cin >> Fahrenheit;
         HasilCelcius = (Fahrenheit-32)*5/9;
         cout << Fahrenheit << " derajat fahrenheit sama dengan " << HasilCelcius << " derajat celcius" << endl;
+
     }
 
-    if (Rumus == "B") {
+    if (Rumus == "B" || Rumus == "b") {
         cout << "Masukkan suhu dalam Celcius" << endl;
         cin >> Celcius;
         HasilFahrenheit = (Celcius*9/5)+32;
         cout << Celcius << " derajat celcius sama dengan " << HasilFahrenheit << " derajat fahrenheit" << endl;
     }
 
+    else {
+        cout << "Input invalid" << endl;
+    }
     return 0;
 }
