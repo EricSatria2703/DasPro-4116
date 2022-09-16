@@ -19,8 +19,7 @@ int main()
     cout << "FahrenheitCelcius Converter" << endl;
     cout << "Input 'A' untuk mengubah Fahrenheit ke Celcius";
     cout << "\nInput 'B' untuk mengubah Celcius ke Fahrenheit" << endl;
-    cout << "Gunakan huruf kapital!!!" << endl;
-
+    
     cout << " " << endl;
 
     cin >> Rumus;
