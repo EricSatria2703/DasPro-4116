@@ -19,7 +19,7 @@ int main()
     cout << "FahrenheitCelcius Converter" << endl;
     cout << "Input 'A' untuk mengubah Fahrenheit ke Celcius";
     cout << "\nInput 'B' untuk mengubah Celcius ke Fahrenheit" << endl;
-    
+
     cout << " " << endl;
 
     cin >> Rumus;
@@ -34,7 +34,8 @@ int main()
 
     }
 
-    if (Rumus == "B" || Rumus == "b") {
+    
+    else if (Rumus == "B" || Rumus == "b") {
         cout << "Masukkan suhu dalam Celcius" << endl;
         cin >> Celcius;
         HasilFahrenheit = (Celcius*9/5)+32;
